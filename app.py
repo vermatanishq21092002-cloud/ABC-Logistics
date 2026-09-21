@@ -21,23 +21,12 @@ st.write("Enter the values below to predict whether the delivery will be delayed
 st.divider()
 
 # The model expects 11 input variables in this order.
-feature_names = [feature_names = ['Delivery_Distance', 'Traffic_Congestion', 'Weather_Condition',
+feature_names = ['Delivery_Distance', 'Traffic_Congestion', 'Weather_Condition',
        'Delivery_Slot', 'Driver_Experience', 'Num_Stops', 'Vehicle_Age',
        'Road_Condition_Score', 'Package_Weight', 'Fuel_Efficiency',
        'Warehouse_Processing_Time']
 
-    "Feature 1",
-    "Feature 2",
-    "Feature 3",
-    "Feature 4",
-    "Feature 5",
-    "Feature 6",
-    "Feature 7",
-    "Feature 8",
-    "Feature 9",
-    "Feature 10",
-    "Feature 11"
-]
+  
 
 inputs = []
 
